@@ -5,7 +5,10 @@ from project1.morgue5.Discharge import discharge
 
 
 def main():
-
+    """
+    main function to set up the main screen
+    :return: None
+    """
     Text(app, text="")
     PushButton(app, text="    I n t a k e     ",
                command=intake)
